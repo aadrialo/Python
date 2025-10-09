@@ -6,6 +6,7 @@
 
 noDay = int(input("¿Cuantas barras que no son del dia vendiste?"))
 normalPrice = float(3.49)
-PanPricenoDay = (3.49*0.6)
+PanPricenoDay = (normalPrice-(3.49*0.6))
 TotalPrice= round((PanPricenoDay*noDay),2)
-print("El precio normal del pan es de ", normalPrice, "€, pero al no ser del dia se hace un 60% de descuento por lo que el precio de la barra de pan seria", PanPricenoDay, "€ y el precio total de las ganancias de esto panes ha sido de: ", TotalPrice,"€" )
+PriceRound= (round(PanPricenoDay,2))
+print("El precio normal del pan es de ", normalPrice, "€, pero al no ser del dia se hace un 60% de descuento por lo que el precio de la barra de pan seria", PriceRound, "€ y el precio total de las ganancias de esto panes ha sido de: ", TotalPrice,"€" )
