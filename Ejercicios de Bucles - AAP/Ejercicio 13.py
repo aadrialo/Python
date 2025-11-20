@@ -5,4 +5,4 @@ while True:
     if eco == "salir":
         break
     else:
-        print (eco)
+        print (eco) 
