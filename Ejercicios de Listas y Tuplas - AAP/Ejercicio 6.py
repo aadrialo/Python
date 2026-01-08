@@ -17,4 +17,4 @@ for i in range(aslen-1,-1,-1):
         asignaturas.pop(i)
 
 print (f"Las asignaturas aprobadas son: {asignaturas}")
-print (f"Las asignatuas suspensas son: {asignatuasSuspensas}")
+print (f"Las asignatuas a repetir son: {asignatuasSuspensas}")
